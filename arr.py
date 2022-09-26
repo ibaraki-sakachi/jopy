@@ -1,3 +1,4 @@
+from grpc import ClientCallDetails
 import numpy as np
 level = 0
 class noInverse(Exception):
@@ -140,6 +141,7 @@ def detArray():
     print('0段階: 入力された行列です。')
     print(a)
     input()
+    det = calDet(a)
     print('行列式の計算が完了されました。')
     print('det(\n', a, '\n)=', det)
-    print("経過時間: ", timedelta(seconds = end-start))
+
