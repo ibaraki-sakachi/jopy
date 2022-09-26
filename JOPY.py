@@ -1,3 +1,4 @@
+#이마이카나성우기원
 from arr import *
 def main():
     print('行列計算機 by そらみ')
@@ -11,3 +12,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+#이마이카나성우기원

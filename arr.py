@@ -1,4 +1,5 @@
 from grpc import ClientCallDetails
+#이마이카나성우기원
 import numpy as np
 level = 0
 class noInverse(Exception):
@@ -145,3 +146,4 @@ def detArray():
     print('行列式の計算が完了されました。')
     print('det(\n', a, '\n)=', det)
 
+#이마이카나성우기워
